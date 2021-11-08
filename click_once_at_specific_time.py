@@ -3,11 +3,11 @@ from datetime import datetime, timedelta
 from threading import Timer
 
 # config variables
-POSITION = (1850, 240)  # x, y mouse position, set through trial and error
+POSITION = (1350, 180)  # x, y mouse position, set through trial and error
 DAYS_IN_ADVANCE = 0  # 0 if today, 1 if tomorrow, etc.
-HOUR = 9  # 0 for 12am, 23 for 11pm
-MINUTE = 58  # 0 to 59
-SECOND = 20  # 0 to 59
+HOUR = 7  # 0 for 12am, 23 for 11pm
+MINUTE = 0  # 0 to 59
+SECOND = 0  # 0 to 59
 MICROSECOND = 0  # 0 to 999999
 
 # do not touch below
